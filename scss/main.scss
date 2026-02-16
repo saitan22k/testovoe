@@ -1,0 +1,22 @@
+//Base
+@use './base/reset';
+@use './base/vars';
+@use './base/base';
+
+//Blocks
+@use './blocks/header';
+@use './blocks/hero';
+@use './blocks/tok';
+@use './blocks/features';
+@use './blocks/download';
+@use './blocks/matches';
+@use './blocks/bonus';
+@use './blocks/reasons';
+@use './blocks/app';
+@use './blocks/howtouse';
+@use './blocks/reviews';
+@use './blocks/brands';
+@use './blocks/info';
+@use './blocks/guide';
+@use './blocks/faq';
+@use './blocks/footer';

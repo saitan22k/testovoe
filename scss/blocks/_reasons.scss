@@ -1,0 +1,202 @@
+@use "../base/vars" as *;
+
+.reasons {
+  width: 67%;
+  background-color: $gray-2;
+  border-radius: 32px;
+  margin: 0 auto;
+  margin-top: 100px;
+  max-height: 1100px;
+}
+
+.reasons_wrapper {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reasons_title {
+  font-family: $font;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: $black-text;
+  text-align: center;
+}
+
+.reasons__accordion {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.acc-item {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.acc-btn {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 20px;
+  text-align: left;
+}
+
+.acc-title {
+  font-family: $font;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: $black-text;
+}
+
+.acc-icon {
+  width: 28px;
+  height: 28px;
+  font-weight: 400;
+  color: #191b23;
+  transition: transform 200ms ease;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+
+.acc-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 250ms ease;
+}
+
+.acc-content {
+  padding: 0 20px 18px;
+  font-family: $font-main;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: $gray-text;
+}
+
+.acc-item.is-open .acc-icon {
+  transform: rotate(45deg);
+}
+
+.reasons_btn {
+  font-family: $font;
+  font-size: 18px;
+  font-weight: 600;
+  color: $white-text;
+  line-height: 1.2;
+  padding: 19px 77px;
+  border-radius: 100px;
+  width: 256px;
+  max-height: 60px;
+  background-color: $orange;
+}
+
+@media (max-width: 992px) {
+  .reasons {
+    max-width: 100%;
+    margin-top: 60px;
+    border-radius: 24px;
+  }
+
+  .reasons_wrapper {
+    padding: 48px 0;
+  }
+
+  .reasons_title {
+    font-size: 36px;
+    padding: 0 16px;
+  }
+
+  .reasons__accordion {
+    padding: 24px;
+  }
+
+  .acc-title {
+    font-size: 18px;
+  }
+
+  .acc-btn {
+    padding: 16px;
+  }
+
+  .acc-content {
+    font-size: 15px;
+    padding: 0 16px 16px;
+  }
+}
+
+@media (max-width: 580px) {
+  .reasons {
+    width: 98%;
+  }
+  .reasons_wrapper {
+    align-items: stretch;
+    width: 98%;
+  }
+
+  .reasons__accordion {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .reasons_title {
+    text-align: left;
+    font-size: 24px;
+    padding: 0 16px;
+  }
+
+  .acc-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    flex: 0 0 auto;
+  }
+
+  .reasons_btn {
+    width: calc(100% - 32px);
+    margin: 0 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .reasons {
+    border-radius: 20px;
+    width: 86%;
+  }
+
+  .reasons__accordion {
+    padding: 12px;
+  }
+
+  .acc-btn {
+    padding: 14px;
+    gap: 12px;
+  }
+
+  .acc-title {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .acc-content {
+    font-size: 14px;
+    padding: 0 14px 14px;
+  }
+
+  .reasons_btn {
+    width: calc(100% - 24px);
+    margin: 0 12px;
+    height: 52px;
+    padding: 16px;
+  }
+}
