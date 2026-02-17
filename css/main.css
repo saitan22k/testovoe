@@ -1543,11 +1543,6 @@ body.menu-open {
   font-size: 22px;
   padding: 18px 23px 21px 22px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.reviews__btn:hover {
-  background-color: #FDF0EA;
 }
 
 .review-card {
