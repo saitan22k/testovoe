@@ -55,6 +55,11 @@
   font-size: 22px;
   cursor: pointer;
   border: 0;
+  transition: background-color 0.3s ease;
+}
+
+.features-btn{
+  background-color: $peach;
 }
 
 .features-controls {

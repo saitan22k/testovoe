@@ -46,6 +46,11 @@
   width: 256px;
   height: 60px;
   background-color: $orange;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn{
+  background-color: $peach;
 }
 
 .people {
