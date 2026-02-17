@@ -46,14 +46,6 @@
   width: 256px;
   height: 60px;
   background-color: $orange;
-
-  transition: background-color 0.3s ease-in;
-  transition: color 0.3s ease-in;
-}
-
-.hero-btn:hover {
-  background-color: $peach;
-  color: $orange;
 }
 
 .people {
@@ -68,7 +60,6 @@
   height: 60px;
 }
 
-/* TABLET (примерно iPad / 768–991) */
 @media (max-width: 992px) {
   .hero_wrapper {
     gap: 24px;
@@ -76,7 +67,7 @@
   }
 
   .hero_left {
-    padding-top: 0; /* убрать desktop отступ */
+    padding-top: 0; 
     gap: 20px;
     flex: 1;
     min-width: 0;
