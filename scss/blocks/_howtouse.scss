@@ -36,11 +36,16 @@
   width: 256px;
   max-height: 60px;
   background-color: $orange;
+  white-space: nowrap;
   transition: background-color 0.3s ease;
+  transition: color 0.1s ease-in;
+  transition: border 0.1s ease;
 }
 
 .HowToUse_btn:hover{
   background-color: $peach;
+  color: $orange;
+  border: 1px solid $orange;
 }
 
 @media (max-width: 580px) {

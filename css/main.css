@@ -151,10 +151,12 @@ legend {
   background-color: #FDF0EA;
   white-space: nowrap;
   transition: background-color 0.3s ease;
+  transition: color 0.1s ease-in;
 }
 
 .nav-btn:hover {
   background-color: #FF7D34;
+  color: #ffffff;
 }
 
 .burger {
@@ -309,11 +311,16 @@ body.menu-open {
   width: 256px;
   height: 60px;
   background-color: #FF7D34;
+  white-space: nowrap;
   transition: background-color 0.3s ease;
+  transition: color 0.1s ease-in;
+  transition: border 0.1s ease;
 }
 
 .hero-btn:hover {
   background-color: #FDF0EA;
+  color: #FF7D34;
+  border: 1px solid #FF7D34;
 }
 
 .people {
@@ -1161,11 +1168,16 @@ body.menu-open {
   width: 256px;
   max-height: 60px;
   background-color: #FF7D34;
+  white-space: nowrap;
   transition: background-color 0.3s ease;
+  transition: color 0.1s ease-in;
+  transition: border 0.1s ease;
 }
 
 .reasons_btn:hover {
   background-color: #FDF0EA;
+  color: #FF7D34;
+  border: 1px solid #FF7D34;
 }
 
 @media (max-width: 992px) {
@@ -1343,10 +1355,16 @@ body.menu-open {
   max-height: 60px;
   background-color: #FF7D34;
   transition: background-color 0.3s ease;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+  transition: color 0.1s ease-in;
+  transition: border 0.1s ease;
 }
 
 .app_btn:hover {
   background-color: #FDF0EA;
+  color: #FF7D34;
+  border: 1px solid #FF7D34;
 }
 
 @media (max-width: 992px) {
@@ -1459,11 +1477,16 @@ body.menu-open {
   width: 256px;
   max-height: 60px;
   background-color: #FF7D34;
+  white-space: nowrap;
   transition: background-color 0.3s ease;
+  transition: color 0.1s ease-in;
+  transition: border 0.1s ease;
 }
 
 .HowToUse_btn:hover {
   background-color: #FDF0EA;
+  color: #FF7D34;
+  border: 1px solid #FF7D34;
 }
 
 @media (max-width: 580px) {
@@ -1945,11 +1968,16 @@ body.menu-open {
   width: 256px;
   max-height: 60px;
   background-color: #FF7D34;
+  white-space: nowrap;
   transition: background-color 0.3s ease;
+  transition: color 0.1s ease-in;
+  transition: border 0.1s ease;
 }
 
 .guide_card-btn:hover {
   background-color: #FDF0EA;
+  color: #FF7D34;
+  border: 1px solid #FF7D34;
 }
 
 @media (max-width: 992px) {
